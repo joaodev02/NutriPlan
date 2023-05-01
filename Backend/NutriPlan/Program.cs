@@ -14,6 +14,14 @@ namespace NutriPlan
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
 
+            builder.Services.AddCors(options => options.AddPolicy("AllowCors", builder =>
+            {
+                builder.SetIsOriginAllowed(_ => true)
+                       .AllowAnyMethod()
+                       .AllowAnyHeader()
+                       .AllowCredentials();
+            }));
+
             var app = builder.Build();
 
             // Configure the HTTP request pipeline.
