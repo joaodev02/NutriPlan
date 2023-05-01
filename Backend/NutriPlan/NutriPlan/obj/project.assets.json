@@ -2,7 +2,7 @@
   "version": 3,
   "targets": {
     "net7.0": {
-      "Microsoft.AspNetCore.OpenApi/7.0.5": {
+      "Microsoft.AspNetCore.OpenApi/7.0.2": {
         "type": "package",
         "dependencies": {
           "Microsoft.OpenApi": "1.4.3"
@@ -111,10 +111,10 @@
     }
   },
   "libraries": {
-    "Microsoft.AspNetCore.OpenApi/7.0.5": {
-      "sha512": "yxFvk9BsgL/eDJVsPp0zbUpL73u9uXLYTnWoMBvnJdm8+970YuhM2XWcDOyetjkp8l8z00MHgfYHCRXOnLx/+Q==",
+    "Microsoft.AspNetCore.OpenApi/7.0.2": {
+      "sha512": "oK0ZRloonE/WDAjHniF2gTbSsTUk5Z26RGN/o6MSlOnrnN12lDMBgpP1o9QbByBLCIRwT/KYvgYeBrYSe/NFnw==",
       "type": "package",
-      "path": "microsoft.aspnetcore.openapi/7.0.5",
+      "path": "microsoft.aspnetcore.openapi/7.0.2",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -122,7 +122,7 @@
         "THIRD-PARTY-NOTICES.TXT",
         "lib/net7.0/Microsoft.AspNetCore.OpenApi.dll",
         "lib/net7.0/Microsoft.AspNetCore.OpenApi.xml",
-        "microsoft.aspnetcore.openapi.7.0.5.nupkg.sha512",
+        "microsoft.aspnetcore.openapi.7.0.2.nupkg.sha512",
         "microsoft.aspnetcore.openapi.nuspec"
       ]
     },
@@ -455,7 +455,7 @@
   },
   "projectFileDependencyGroups": {
     "net7.0": [
-      "Microsoft.AspNetCore.OpenApi >= 7.0.5",
+      "Microsoft.AspNetCore.OpenApi >= 7.0.2",
       "Swashbuckle.AspNetCore >= 6.4.0"
     ]
   },
@@ -465,11 +465,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\ProjectNutriplan\\NutriPlan\\Backend\\NutriPlan\\NutriPlan.csproj",
+      "projectUniqueName": "C:\\ProjectNutriplan\\NutriPlan\\Backend\\NutriPlan\\NutriPlan\\NutriPlan.csproj",
       "projectName": "NutriPlan",
-      "projectPath": "C:\\ProjectNutriplan\\NutriPlan\\Backend\\NutriPlan\\NutriPlan.csproj",
+      "projectPath": "C:\\ProjectNutriplan\\NutriPlan\\Backend\\NutriPlan\\NutriPlan\\NutriPlan.csproj",
       "packagesPath": "C:\\Users\\ValorUp-99\\.nuget\\packages\\",
-      "outputPath": "C:\\ProjectNutriplan\\NutriPlan\\Backend\\NutriPlan\\obj\\",
+      "outputPath": "C:\\ProjectNutriplan\\NutriPlan\\Backend\\NutriPlan\\NutriPlan\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ValorUp-99\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -501,7 +501,7 @@
         "dependencies": {
           "Microsoft.AspNetCore.OpenApi": {
             "target": "Package",
-            "version": "[7.0.5, )"
+            "version": "[7.0.2, )"
           },
           "Swashbuckle.AspNetCore": {
             "target": "Package",

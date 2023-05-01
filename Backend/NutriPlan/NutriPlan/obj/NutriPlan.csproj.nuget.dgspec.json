@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\ProjectNutriplan\\NutriPlan\\Backend\\NutriPlan\\NutriPlan.csproj": {}
+    "C:\\ProjectNutriplan\\NutriPlan\\Backend\\NutriPlan\\NutriPlan\\NutriPlan.csproj": {}
   },
   "projects": {
-    "C:\\ProjectNutriplan\\NutriPlan\\Backend\\NutriPlan\\NutriPlan.csproj": {
+    "C:\\ProjectNutriplan\\NutriPlan\\Backend\\NutriPlan\\NutriPlan\\NutriPlan.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\ProjectNutriplan\\NutriPlan\\Backend\\NutriPlan\\NutriPlan.csproj",
+        "projectUniqueName": "C:\\ProjectNutriplan\\NutriPlan\\Backend\\NutriPlan\\NutriPlan\\NutriPlan.csproj",
         "projectName": "NutriPlan",
-        "projectPath": "C:\\ProjectNutriplan\\NutriPlan\\Backend\\NutriPlan\\NutriPlan.csproj",
+        "projectPath": "C:\\ProjectNutriplan\\NutriPlan\\Backend\\NutriPlan\\NutriPlan\\NutriPlan.csproj",
         "packagesPath": "C:\\Users\\ValorUp-99\\.nuget\\packages\\",
-        "outputPath": "C:\\ProjectNutriplan\\NutriPlan\\Backend\\NutriPlan\\obj\\",
+        "outputPath": "C:\\ProjectNutriplan\\NutriPlan\\Backend\\NutriPlan\\NutriPlan\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ValorUp-99\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -43,7 +43,7 @@
           "dependencies": {
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
-              "version": "[7.0.5, )"
+              "version": "[7.0.2, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
